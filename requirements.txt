@@ -1,0 +1,10 @@
+torch>=1.13
+transformers>=4.30
+datasets>=2.0
+evaluate
+scikit-learn
+pandas
+streamlit
+lime
+sentencepiece
+tqdm
