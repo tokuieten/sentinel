@@ -8,7 +8,7 @@ import numpy as np
 import html
 
 # === Config ===
-MODEL_DIR = "models/distilbert-imdb"  # change if your model is in a different folder
+MODEL_DIR = "tokuieten/sentinel-distilbert"  # change if your model is in a different folder
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 LABELS = ["negative", "positive"]
 MAX_LENGTH = 256
@@ -106,3 +106,4 @@ with col2:
 
 st.markdown("---")
 st.markdown("Built with DistilBERT (Hugging Face Transformers) and LIME for explanation.")
+
